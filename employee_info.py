@@ -35,7 +35,9 @@ def calculate_average_salary():
 def get_employees_by_dept(department):
     result = []
 
-    # Add your implementation from here
+    for index in employee_data:
+        if index["department"] == department:
+            result.append(index)
 
     return result
 
