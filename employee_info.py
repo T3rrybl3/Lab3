@@ -8,6 +8,7 @@ employee_data = [
     {"name": "Peter", "age": 40, "department": "Sales", "salary": 60000}
 ]
 
+
 def get_employees_by_age_range(age_lower_limit, age_upper_limit):
     result = []
 
@@ -18,33 +19,42 @@ def get_employees_by_age_range(age_lower_limit, age_upper_limit):
 
     return result
 
+
 def calculate_average_salary():
     total = 0
     average = 0
 
-    #add your implementation to calculate here
+    for index in employee_data:
+        total += index['salary']
 
+    average = total/len(employee_data)
 
     return average
+
 
 def get_employees_by_dept(department):
     result = []
 
     # Add your implementation from here
 
-
     return result
 
+
 def display_all_records():
-    print(("Name" + "\t" +"Age" +"\t" +"Department" +"\t" +"Salary" ).expandtabs(15))
+    print(("Name" + "\t" + "Age" + "\t" +
+          "Department" + "\t" + "Salary").expandtabs(15))
     for item in employee_data:
-        print((item["name"] + "\t" + str(item["age"]) + "\t" + item["department"] + "\t" + str(item["salary"])).expandtabs(15))
+        print((item["name"] + "\t" + str(item["age"]) + "\t" +
+              item["department"] + "\t" + str(item["salary"])).expandtabs(15))
 
 
 def display_records(employee_info):
-    print(("Name" + "\t" +"Age" +"\t" +"Department" +"\t" +"Salary" ).expandtabs(15))
+    print(("Name" + "\t" + "Age" + "\t" +
+          "Department" + "\t" + "Salary").expandtabs(15))
     for item in employee_info:
-        print((item["name"] + "\t" + str(item["age"]) + "\t" + item["department"] + "\t" + str(item["salary"])).expandtabs(15))
+        print((item["name"] + "\t" + str(item["age"]) + "\t" +
+              item["department"] + "\t" + str(item["salary"])).expandtabs(15))
+
 
 def display_main_menu():
 
@@ -56,7 +66,6 @@ def display_main_menu():
     print("2 - Display average salary")
     print("3 - Display employee within age range")
     print("4 - Display employee in a department")
-
 
     print("Q - Quit")
 
@@ -72,9 +81,9 @@ def display_main_menu():
     elif option == '3':
         age_lower_limit = input("age (Lower Limit) = ")
         age_upper_limit = input("age (Uper Limit) = ")
-        employee_info = get_employees_by_age_range(age_lower_limit, age_upper_limit)
+        employee_info = get_employees_by_age_range(
+            age_lower_limit, age_upper_limit)
         display_records(employee_info)
-
 
     elif option == '4':
         department = input("Name of Department = ")
@@ -83,6 +92,7 @@ def display_main_menu():
 
     elif option == 'Q':
         quit()
+
 
 def main():
 
