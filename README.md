@@ -8,7 +8,7 @@ Quote break.
 
 1. First ordered list item
 2. Another item
-  * Unordered sub-list.
+  - Unordered sub-list.
   - efgewfew
 1. Actual numbers don't matter, just that it's a number
   1. Ordered sub-list
@@ -17,7 +17,7 @@ Quote break.
   4. www
   4. ewqqewfew
 - Fruits
-  1. Apple
+  3. Apple
   2. Banana
 - Vegetables
   - Carrot
