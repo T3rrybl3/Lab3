@@ -19,13 +19,12 @@ Quote break.
 - Fruits
   1. Apple
   2. Banana
-2. Vegetables
-
+- Vegetables
   1. Carrot
-  
+  2. eweewew
   3. efefeefg
-  - ewfewewf
-  6. ewewfewe
+  
+  
 
     You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
 
