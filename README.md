@@ -7,7 +7,7 @@ Quote break.
 > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
 
 1. First ordered list item
-2. Another item
+- Another item 
   - Unordered sub-list.
   - efgewfew
 1. Actual numbers don't matter, just that it's a number
@@ -17,10 +17,10 @@ Quote break.
   4. www
   4. ewqqewfew
 - Fruits
-  3. Apple
+  1. Apple
   2. Banana
 - Vegetables
-  - Carrot
+  1. Carrot
   - Broccoli
 
     You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
