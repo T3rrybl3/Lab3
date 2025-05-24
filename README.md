@@ -21,7 +21,7 @@ Quote break.
   2. Banana
 - Vegetables
   1. Carrot
-  - Broccoli
+  
   3. efefeefg
   6. ewewfewe
 
