@@ -19,7 +19,8 @@ Quote break.
 - Fruits
   1. Apple
   2. Banana
-- Vegetables
+2. Vegetables
+
   1. Carrot
   
   3. efefeefg
